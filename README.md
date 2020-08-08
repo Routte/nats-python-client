@@ -1,5 +1,10 @@
-# Example Package
+# nats-python-client
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+## create enviroment
+- python3 -m venv .venv
+- touch ./src/.env
+- source .venv/bin/activate
+
+## example
+
+- run `python3 example.py`

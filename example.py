@@ -1,4 +1,3 @@
-import asyncio
 from src.nats_client import NatsClient
 
 servers = "nats://45.32.192.50:8080"
