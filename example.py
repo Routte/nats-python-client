@@ -1,6 +1,6 @@
 from src.nats_client import NatsClient
 
-servers = "nats://45.32.192.50:8080"
+servers = "nats://127.0.0.0:4222"
 subject = "events.*"
 
 nc = NatsClient(servers)
@@ -14,3 +14,4 @@ async def message_handler(msg):
       subject=subject, reply=reply, data=data))
 
 nc.subscribe(subject, cb=message_handler)
+nc.publish(subject, "Hello world")

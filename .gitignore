@@ -132,4 +132,4 @@ dmypy.json
 /.idea
 /src/natspythonclient.egg-info
 /src/__pycache__
-/src/.env
+.env**
