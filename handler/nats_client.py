@@ -1,5 +1,5 @@
 import asyncio
-from src._handler import Handler
+from handler._handler import Handler
 
 class NatsClient:
   __instance = None

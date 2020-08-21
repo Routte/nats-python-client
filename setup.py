@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nats_python_client",
-    version="0.0.1",
+    version="0.0.2",
     author="jp-vargas",
     author_email="vargasm.jp@gmail.com",
     description="Nats client abstraction to use inside python projects",
